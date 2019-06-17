@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "git+ssh://git@bitbucket.coke.com:22/~o40677/serverless-dynamodb-local.git",
+      "/Users/o40677/poc"
+    ]
+  ],
+  "_development": true,
+  "_from": "git+ssh://git@bitbucket.coke.com:22/~o40677/serverless-dynamodb-local.git",
+  "_id": "serverless-dynamodb-local@git+ssh://git@bitbucket.coke.com:22/~o40677/serverless-dynamodb-local.git#13421469c3256aca41a3209621feb525281f6133",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/serverless-dynamodb-local",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+ssh://git@bitbucket.coke.com:22/~o40677/serverless-dynamodb-local.git",
+    "rawSpec": "git+ssh://git@bitbucket.coke.com:22/~o40677/serverless-dynamodb-local.git",
+    "saveSpec": "git+ssh://git@bitbucket.coke.com:22/~o40677/serverless-dynamodb-local.git",
+    "fetchSpec": "ssh://git@bitbucket.coke.com:22/~o40677/serverless-dynamodb-local.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git+ssh://git@bitbucket.coke.com:22/~o40677/serverless-dynamodb-local.git#13421469c3256aca41a3209621feb525281f6133",
+  "_spec": "git+ssh://git@bitbucket.coke.com:22/~o40677/serverless-dynamodb-local.git",
+  "_where": "/Users/o40677/poc",
+  "author": {
+    "name": "99xtechnology.com"
+  },
+  "bin": {},
+  "bugs": {
+    "url": "https://github.com/99xt/serverless-dynamodb-local/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.7.0",
+    "bluebird": "^3.4.6",
+    "dynamodb-localhost": "^0.0.7",
+    "lodash": "^4.17.0"
+  },
+  "description": "Serverless dynamodb local plugin",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "should": "^11.2.1"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "homepage": "https://github.com/99xt/serverless-dynamodb-local#readme",
+  "keywords": [
+    "serverless framework plugin",
+    "serverless applications",
+    "serverless plugins",
+    "api gateway",
+    "lambda",
+    "dynamodb",
+    "dynamodb local",
+    "aws",
+    "aws lambda",
+    "aws dynamodb",
+    "amazon",
+    "amazon web services",
+    "serverless.com"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "serverless-dynamodb-local",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/99xt/serverless-dynamodb-local.git"
+  },
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "version": "0.2.37"
+}
